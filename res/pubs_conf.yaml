@@ -1,0 +1,51 @@
+
+
+# write new pub in the front
+
+
+- authors: "Bangqi Fu, Lixin Liu, Qijing Wang, Yutao Wang, Martin D. F. Wong, and Evangeline F. Y. Young"
+  title: "Fast Dynamic IR-Drop Prediction with Dual-path Spatial-Temporal Attention"
+  conf: "In 2025 IEEE/ACM Design, Automation and Test in Europe Conference"
+  abbr: "DATE"
+  year: 2025
+  links:
+    - [paper, "docs/date25_irdrop_prediction.pdf"]
+    - [code, "https://github.com/cuhk-eda/DuST-IRdrop"]
+
+- authors: "Bangqi Fu, Lixin Liu, Martin D. F. Wong, and Evangeline F. Y. Young"
+  title: "Hybrid Modeling and Weighting for Timing-driven Placement with Efficient Calibration"
+  conf: "In 2024 IEEE/ACM International Conference On Computer Aided Design"
+  abbr: "ICCAD"
+  year: 2024
+  links:
+    - [paper, "docs/iccad24_tdp.pdf"]
+    - [code, "https://github.com/cuhk-eda/Xplace"]
+
+- authors: "Bangqi Fu, Lixin Liu, Yang Sun, Wing-Ho Lau, Martin D. F. Wong, and Evangeline F. Y. Young"
+  title: "CoPlace: Coherent Placement Engine with Layout-aware Partitioning for 3D ICs"
+  conf: "In 2024 IEEE/ACM Asia and South Pacific Design Automation Conference"
+  abbr: "ASP-DAC"
+  year: 2024
+  award: "(Best Paper Award Nomination)"
+  links:
+    - [paper, "docs/aspdac24_3dplace.pdf"]
+
+- authors: "Fangzhou Wang, Qijing Wang, Bangqi Fu, Shui Jiang, Xiaopeng Zhang, Lilas Alrahis, Ozgur Sinanoglu, Johann Knechtel, Tsung-Yi Ho, and Evangeline F.Y. Young"
+  title: "Security Closure of IC Layouts Against Hardware Trojans"
+  conf: "In 2023 International Symposium on Physical Design"
+  abbr: "ISPD"
+  year: 2023
+
+- authors: "Lixin Liu, Bangqi Fu, Martin D. F. Wong, and Evangeline F. Y. Young"
+  title: "Xplace: an extremely fast and extensible global placement framework"
+  conf: "In 59th ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2022
+  links:
+    - [code, "https://github.com/cuhk-eda/Xplace"]
+
+- authors: "Zhuoran Song, Bangqi Fu, Feiyang Wu, Zhaoming Jiang, Li Jiang, Naifeng Jing, Xiaoyao Liang"
+  title: "DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration"
+  conf: "In 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture"
+  abbr: "ISCA"
+  year: 2020
