@@ -7,14 +7,16 @@
   jour: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
   abbr: "TCAD"
   year: 2025
-  links:
-    - [paper, "https://ieeexplore.ieee.org/document/11271675"]
+  ref: https://ieeexplore.ieee.org/document/11271675
+  # links:
+  #   - [paper, "https://ieeexplore.ieee.org/document/11271675"]
 
 - authors: "Lixin Liu, Bangqi Fu, Shiju Lin; Jinwei Liu, Evangeline F. Y. Young and Martin D. F. Wong"
   title: "Xplace: An Extremely Fast and Extensible Placement Framework"
   jour: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
   abbr: "TCAD"
   year: 2023
+  ref: https://ieeexplore.ieee.org/document/10373583
   links:
     - [code, "https://github.com/cuhk-eda/Xplace"]
 

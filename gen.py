@@ -24,7 +24,10 @@ def gen_pubs(pubs, type="", header=""):
         html += pub["authors"].replace(my_name, bold_my_name) + ", "
 
         assert "title" in pub
-        html += '"<i>' + pub["title"] + '</i>", '
+        if "ref" in pub:
+            html += '<a href="%s" target="_blank">"<i>%s</i>"</a>, ' % (pub["ref"], pub["title"])
+        else:
+            html += '"<i>' + pub["title"] + '</i>", '
 
         assert "conf" in pub or "jour" in pub
         conf_jour = pub["conf"] if "conf" in pub else pub["jour"]
@@ -71,6 +74,29 @@ def gen_awards(awards):
         html += "\n</li>\n"
     return html
 
+def gen_exp(exps):
+    html = ""
+
+    # show in reversed order
+    for exp in (exps):     
+        assert "affliation" in exp
+        html += "<p><b>" + exp["affliation"] + "</b>"
+        html += "<span style=\"float: right;\">" + exp["start"] + " ~ " + exp["end"] + "</span>"
+        # html += " " + exp["start"] + " ~ " + exp["end"] + "</p>"
+        html += "<br>"
+        html += "<i>" + exp["position"] + "</i>"
+        
+        if "works" in exp:
+            html += "<br>"
+            for text, link in exp["works"]:
+                if link == "":
+                    html += '%s ' % (text)
+                else:
+                    html += '<a href="%s" target="_blank">%s</a> ' % (link, text)
+        html += "</p>"
+        
+        
+    return html
 
 # load HTML template
 with open("header.html", "r") as f:
@@ -83,12 +109,16 @@ with open("res/pubs_jour.yaml", "r") as f:
     pubs_jour = yaml.safe_load(f)
 with open("res/awards.yaml", "r") as f:
     awards = yaml.safe_load(f)
+with open("res/experiences.yaml", "r") as f:
+    exps = yaml.safe_load(f)
 
 pubs_conf_html = gen_pubs(pubs_conf, "Conference", "C")
 pubs_jour_html = gen_pubs(pubs_jour, "Journal", "J")
 awards_html = gen_awards(awards)
+exps_html = gen_exp(exps)
 
 index_html = html_template.replace("__PUBS__", pubs_jour_html + pubs_conf_html).replace("__AWARDS__", awards_html)
+index_html = index_html.replace("__EXPS__", exps_html)
 
 # update time
 index_html = index_html.replace("__UPDATE_TIME__", time.strftime("%b %d, %Y", time.localtime()))

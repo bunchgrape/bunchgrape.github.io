@@ -93,6 +93,10 @@ h2 {
 }
 h3 {
     text-indent: 0px;
-    margin-top: -0.1em;
+    margin-top: 0.5em;
     margin-bottom: -0.05em;
+}
+
+h2, h3 {
+	color: #527bbd;
 }

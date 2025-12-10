@@ -2,56 +2,62 @@
 
 # write new pub in the front
 
-
-- authors: "Bangqi Fu, Lixin Liu, Qijing Wang, Yutao Wang, Martin D. F. Wong, and Evangeline F. Y. Young"
-  title: "Fast Dynamic IR-Drop Prediction with Dual-path Spatial-Temporal Attention"
+- title: "Fast Dynamic IR-Drop Prediction with Dual-path Spatial-Temporal Attention"
+  authors: "Bangqi Fu, Lixin Liu, Qijing Wang, Yutao Wang, Martin D. F. Wong, and Evangeline F. Y. Young"
   conf: "In 2025 IEEE/ACM Design, Automation and Test in Europe Conference"
   abbr: "DATE"
   year: 2025
+  ref: https://ieeexplore.ieee.org/document/10992730
   links:
-    - [paper, "docs/date25_irdrop_prediction.pdf"]
+    # - [paper, "docs/date25_irdrop_prediction.pdf"]
     - [code, "https://github.com/cuhk-eda/DuST-IRdrop"]
 
-- authors: "Bangqi Fu, Lixin Liu, Martin D. F. Wong, and Evangeline F. Y. Young"
-  title: "Hybrid Modeling and Weighting for Timing-driven Placement with Efficient Calibration"
+- title: "Hybrid Modeling and Weighting for Timing-driven Placement with Efficient Calibration"
+  authors: "Bangqi Fu, Lixin Liu, Martin D. F. Wong, and Evangeline F. Y. Young"
   conf: "In 2024 IEEE/ACM International Conference On Computer Aided Design"
   abbr: "ICCAD"
   year: 2024
+  ref: https://dl.acm.org/doi/10.1145/3676536.3676803
   links:
-    - [paper, "docs/iccad24_tdp.pdf"]
+    # - [paper, "docs/iccad24_tdp.pdf"]
     - [code, "https://github.com/cuhk-eda/Xplace"]
 
-- authors: "Bangqi Fu, Lixin Liu, Yang Sun, Wing-Ho Lau, Martin D. F. Wong, and Evangeline F. Y. Young"
-  title: "CoPlace: Coherent Placement Engine with Layout-aware Partitioning for 3D ICs"
+- title: "CoPlace: Coherent Placement Engine with Layout-aware Partitioning for 3D ICs"
+  authors: "Bangqi Fu, Lixin Liu, Yang Sun, Wing-Ho Lau, Martin D. F. Wong, and Evangeline F. Y. Young"
   conf: "In 2024 IEEE/ACM Asia and South Pacific Design Automation Conference"
   abbr: "ASP-DAC"
   year: 2024
   award: "(Best Paper Award Nomination)"
-  links:
-    - [paper, "docs/aspdac24_3dplace.pdf"]
+  ref: https://ieeexplore.ieee.org/document/10473808
+  # links:
+  #   - [paper, "docs/aspdac24_3dplace.pdf"]
 
-- authors: "Fangzhou Wang, Qijing Wang, Bangqi Fu, Shui Jiang, Xiaopeng Zhang, Lilas Alrahis, Ozgur Sinanoglu, Johann Knechtel, Tsung-Yi Ho, and Evangeline F.Y. Young"
-  title: "Security Closure of IC Layouts Against Hardware Trojans"
+- title: "Security Closure of IC Layouts Against Hardware Trojans"
+  authors: "Fangzhou Wang, Qijing Wang, Bangqi Fu, Shui Jiang, Xiaopeng Zhang, Lilas Alrahis, Ozgur Sinanoglu, Johann Knechtel, Tsung-Yi Ho, and Evangeline F.Y. Young"
   conf: "In 2023 International Symposium on Physical Design"
   abbr: "ISPD"
   year: 2023
+  ref: https://dl.acm.org/doi/abs/10.1145/3569052.3571878
 
-- authors: "Lixin Liu, Bangqi Fu, Martin D. F. Wong, and Evangeline F. Y. Young"
-  title: "Xplace: an extremely fast and extensible global placement framework"
+- title: "Xplace: an extremely fast and extensible global placement framework"
+  authors: "Lixin Liu, Bangqi Fu, Martin D. F. Wong, and Evangeline F. Y. Young"
   conf: "In 59th ACM/IEEE Design Automation Conference"
   abbr: "DAC"
   year: 2022
+  ref: https://dl.acm.org/doi/10.1145/3489517.3530485
   links:
     - [code, "https://github.com/cuhk-eda/Xplace"]
 
-- authors: "Bangqi Fu, Wenjia Zhang, Yao Lu, Zuyuan He"
-  title: "Photonic Spiking VCSEL Neurons using Multi-Frequency Switching"
+- title: "Photonic Spiking VCSEL Neurons using Multi-Frequency Switching"
+  authors: "Bangqi Fu, Wenjia Zhang, Yao Lu, Zuyuan He"
   conf: "In 2021 IEEE Optical Fiber Communications Conference and Exhibition"
   abbr: "OFC"
   year: 2021
+  ref: https://ieeexplore.ieee.org/document/9489397
 
-- authors: "Zhuoran Song, Bangqi Fu, Feiyang Wu, Zhaoming Jiang, Li Jiang, Naifeng Jing, Xiaoyao Liang"
-  title: "DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration"
+- title: "DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration"
+  authors: "Zhuoran Song, Bangqi Fu, Feiyang Wu, Zhaoming Jiang, Li Jiang, Naifeng Jing, Xiaoyao Liang"
   conf: "In 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture"
   abbr: "ISCA"
   year: 2020
+  ref: https://ieeexplore.ieee.org/document/9138970
