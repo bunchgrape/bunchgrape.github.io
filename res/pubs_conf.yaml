@@ -44,6 +44,12 @@
   links:
     - [code, "https://github.com/cuhk-eda/Xplace"]
 
+- authors: "Bangqi Fu, Wenjia Zhang, Yao Lu, Zuyuan He"
+  title: "Photonic Spiking VCSEL Neurons using Multi-Frequency Switching"
+  conf: "In 2021 IEEE Optical Fiber Communications Conference and Exhibition"
+  abbr: "OFC"
+  year: 2021
+
 - authors: "Zhuoran Song, Bangqi Fu, Feiyang Wu, Zhaoming Jiang, Li Jiang, Naifeng Jing, Xiaoyao Liang"
   title: "DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration"
   conf: "In 2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture"

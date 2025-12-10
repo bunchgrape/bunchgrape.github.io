@@ -17,3 +17,15 @@
   year: 2023
   links:
     - [code, "https://github.com/cuhk-eda/Xplace"]
+
+- authors: "Yao Lu, Wenjia Zhang, Bangqi Fu, and Zuyuan He"
+  title: "Synaptic delay plasticity based on frequency-switched VCSELs for optical delay-weight spiking neural networks"
+  jour: "Optics Letters"
+  abbr: "Opt. Lett."
+  year: 2023
+
+- authors: "Yao Lu, Wenjia Zhang, Bangqi Fu, and Zuyuan He"
+  title: "Frequency-switched photonic spiking neurons"
+  jour: "Optics Express"
+  abbr: "Opt. Express"
+  year: 2023

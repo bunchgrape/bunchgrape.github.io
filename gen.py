@@ -52,15 +52,21 @@ def gen_awards(awards):
     # show in reversed order
     for award in (awards):
         html += "<li>\n"
-
+            
         assert "award" in award
-        html += award["award"] + ", "
+        html += award["award"]
 
+        if "link" in award:
+            assert "name" in award
+            html += '<a href="%s" target="_blank">%s</a>' % (award["link"], award["name"])
+
+        html += ", "
+        
         assert "year" in award
         html += str(award["year"]) + ". "
 
-        if "other_info" in award:
-            html += award["other_info"] + " "
+        # if "other_info" in award:
+        #     html += award["other_info"] + " "
         
         html += "\n</li>\n"
     return html
@@ -82,10 +88,11 @@ pubs_conf_html = gen_pubs(pubs_conf, "Conference", "C")
 pubs_jour_html = gen_pubs(pubs_jour, "Journal", "J")
 awards_html = gen_awards(awards)
 
-index_html = html_template.replace("__PUBS__", pubs_conf_html + pubs_jour_html).replace("__AWARDS__", awards_html)
+index_html = html_template.replace("__PUBS__", pubs_jour_html + pubs_conf_html).replace("__AWARDS__", awards_html)
 
 # update time
 index_html = index_html.replace("__UPDATE_TIME__", time.strftime("%b %d, %Y", time.localtime()))
 
 with open("index.html", "w") as f:
     f.write(index_html)
+f.close()

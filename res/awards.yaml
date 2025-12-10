@@ -1,24 +1,44 @@
 
 # write new award in the end
-
 - award: "ICCAD Student Scholar Program Travel Grant"
   year: 2024
-- award: "2<sup>nd</sup> Place in ICCAD Contest on \"Scalable Logic Gate Sizing Using ML Techniques and GPU Acceleration\""
+
+- award: "2<sup>nd</sup> Place in ICCAD Contest on "
   year: 2024
-- award: "Honorable mention in ICCAD Contest on \"Power and Timing Optimization Using Multibit Flip-Flop\""
+  name: "\"Scalable Logic Gate Sizing Using ML Techniques and GPU Acceleration\""
+  link: https://www.iccad-contest.org/2024/Winners.html
+
+- award: "Honorable mention in ICCAD Contest on "
   year: 2024
+  name: "\"Power and Timing Optimization Using Multibit Flip-Flop\""
+  link: https://www.iccad-contest.org/2024/Winners.html
+
 - award: "Best Paper Nomination, 29th Asia and South Pacific Design Automation Conference"
   year: 2024
-- award: "3<sup>rd</sup> Place in ICCAD Contest on \"3D Placement with Macros\""
+
+- award: "3<sup>rd</sup> Place in ICCAD Contest on "
   year: 2023
-- award: "3<sup>rd</sup> Place in ISPD Contest on \"Advanced Security Closure of Physical Layouts\""
+  name: "\"3D Placement with Macros\""
+  link: https://www.iccad-contest.org/2023/Winners.html
+
+- award: "3<sup>rd</sup> Place in ISPD Contest on "
   year: 2023
+  name: "\"Advanced Security Closure of Physical Layouts\""
+  link: https://www.ispd.cc/contests/23/index.html
+
 - award: "Talent Development Scholarship at CUHK"
   year: 2023
-- award: "Honorable mention in ICCAD Contest on \"3D Placement with D2D Vertical Connections\""
+
+- award: "Honorable mention in ICCAD Contest on "
   year: 2022
+  name: "\"3D Placement with D2D Vertical Connections\""
+  link: https://www.iccad-contest.org/2022/Winners.html
+
 - award: "3<sup>rd</sup> Place in ISPD Contest on \"Security Closure of Physical Layouts\""
   year: 2022
+  name: "\"Security Closure of Physical Layouts\""
+  link: https://www.ispd.cc/contests/22/index.html
+
 - award: "Full Postgraduate Studentship at CUHK"
   year: 2023
 - award: "Zhiyuan Honors Program Scholarship"
