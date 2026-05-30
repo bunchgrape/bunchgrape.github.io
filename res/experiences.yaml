@@ -5,7 +5,7 @@
   start: Sep 2025
   end: Present
   works: 
-    - ["GPU-accelerated logic synthesis", ""]
+    - ["GPU-accelerated logic synthesis", "https://cueda.cse.cuhk.edu.hk"]
 
 - affliation: Cadence Design Systems, San Jose, US
   position: Software Engineer Intern

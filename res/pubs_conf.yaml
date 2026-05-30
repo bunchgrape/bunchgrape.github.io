@@ -2,6 +2,18 @@
 
 # write new pub in the front
 
+- title: "ATOM-3D: Analytical Three-dimensional Orientation-aware Mixed-size Placer"
+  authors: "Yutao Wang, Liang Xiao, Bangqi Fu, Lixin Liu, and Evangeline Young"
+  conf: "In 2026 ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2026
+
+- title: "DRΛMA: Detailed Routing by a Versatile Maze Routing Algorithm"
+  authors: "Jinwei Liu, Xingyu Cui, Liang Xiao, Bangqi Fu, and Evangeline Young"
+  conf: "In 2026 ACM/IEEE Design Automation Conference"
+  abbr: "DAC"
+  year: 2026
+
 - title: "Fast Dynamic IR-Drop Prediction with Dual-path Spatial-Temporal Attention"
   authors: "Bangqi Fu, Lixin Liu, Qijing Wang, Yutao Wang, Martin D. F. Wong, and Evangeline F. Y. Young"
   conf: "In 2025 IEEE/ACM Design, Automation and Test in Europe Conference"
